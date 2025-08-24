@@ -14,23 +14,23 @@ const projects = [
       "A task management web app built with React, Next.js, Firebase, and Tailwind CSS for seamless productivity tracking.",
     // image: "/projects/taskpal.png",
     tech: ["Next.js", "React", "Tailwind CSS", "Firebase"],
-    link: "https://taskpal.vercel.app",
+    link: "https://taskpal-sand.vercel.app/",
   },
   {
-    title: "Wella",
+    title: "Unipeers",
     description:
-      "A personal health & fitness tracking app with meal plans, exercise routines, and medication reminders.",
+      "This is an android & iOS App which is still in development",
     // image: "/projects/wella.png",
-    tech: ["React Native", "Firebase", "Node.js"],
-    link: "https://wella.vercel.app",
+    tech: ["React Native", "Expo", "Node.js"],
+    link: "#",
   },
   {
-    title: "NewsDash",
+    title: "Panora",
     description:
       "A modern news dashboard built using GNews API, featuring filters, categories, and search functionality.",
     // image: "/projects/newsdash.png",
-    tech: ["Next.js", "Tailwind", "GNews API"],
-    link: "https://newsdash.vercel.app",
+    tech: ["Next.js", "Tailwind-CSS", "GNews API"],
+    link: "#",
   },
 ];
 

@@ -60,7 +60,7 @@ export default function Hero() {
           className="mt-8 flex flex-col sm:flex-row gap-4 sm:gap-6"
         >
           <Link
-            href="/projects"
+            href="/projectsPage"
             className="px-6 py-3 sm:px-8 sm:py-4 rounded-full bg-gradient-to-r from-indigo-500 to-cyan-500 
             hover:opacity-90 text-white text-base sm:text-lg font-medium transition"
           >
