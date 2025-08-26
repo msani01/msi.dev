@@ -43,7 +43,7 @@ export default function ContactPage() {
                 <p className="text-gray-300 text-lg">
                     📧 <span className="font-medium">Email:</span>{" "}
                     <a
-                    href="mailto:muhammad.sani@example.com"
+                    href="mailto:imuhammadsani08@gmail.com"
                     className="text-cyan-400 hover:underline"
                     >
                     imuhammadsani08@gmail.com

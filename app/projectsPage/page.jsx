@@ -12,7 +12,7 @@ const projects = [
     title: "TaskPal",
     description:
       "A task management web app built with React, Next.js, Firebase, and Tailwind CSS for seamless productivity tracking.",
-    // image: "/projects/taskpal.png",
+    // image: "",
     tech: ["Next.js", "React", "Tailwind CSS", "Firebase"],
     link: "https://taskpal-sand.vercel.app/",
   },
@@ -20,7 +20,7 @@ const projects = [
     title: "Unipeers",
     description:
       "This is an android & iOS App which is still in development",
-    // image: "/projects/wella.png",
+    // image: "",
     tech: ["React Native", "Expo", "Node.js"],
     link: "#",
   },
@@ -28,7 +28,7 @@ const projects = [
     title: "Panora",
     description:
       "A modern news dashboard built using GNews API, featuring filters, categories, and search functionality.",
-    // image: "/projects/newsdash.png",
+    // image: "",
     tech: ["Next.js", "Tailwind-CSS", "GNews API"],
     link: "#",
   },
