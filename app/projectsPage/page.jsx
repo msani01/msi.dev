@@ -42,8 +42,7 @@ export default function ProjectsPage() {
           initial={{ opacity: 0, y: -30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
-          className="text-4xl sm:text-5xl font-extrabold text-center bg-gradient-to-r from-indigo-400
-          via-cyan-400 to-teal-300 bg-clip-text text-transparent"
+          className="text-4xl sm:text-5xl font-extrabold text-center text-cyan-400 "
         >
           My Projects
         </motion.h1>
@@ -86,7 +85,7 @@ export default function ProjectsPage() {
                 </h3>
                 <p className="text-gray-300 text-sm mb-4">{project.description}</p>
 
-                {/* tech stack */}
+                {/* tech */}
                 <div className="flex flex-wrap gap-2 mb-4">
                   {project.tech.map((tech, i) => (
                     <span

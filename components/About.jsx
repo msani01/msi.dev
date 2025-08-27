@@ -89,10 +89,10 @@ export default function About() {
               "Next.js",
               "Tailwind CSS",
               "JavaScript",
-              "React Native",
+              "React Native ",
               "Firebase",
-              "Android Dev",
-              "iOS Dev",
+              "Android Dev ",
+              "iOS Dev ",
             ].map((skill, index) => (
               <motion.span
                 key={index}
@@ -111,7 +111,7 @@ export default function About() {
         {/* cta Button */}
         <div className="mt-10">
           <Link
-            href="/projects"
+            href="/projectsPage"
             className="px-6 py-3 rounded-full bg-gradient-to-r from-indigo-500 to-cyan-500 
             hover:opacity-90 text-white font-medium transition"
           >
