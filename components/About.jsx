@@ -111,7 +111,8 @@ export default function About() {
         </div>
 
         {/* cta Button */}
-        <div className="mt-10">
+        <div className="flex flex-1 gap-5 max-sm:flex-col max-sm:gap-1">
+          <div className="mt-10  ">
           <Link
             href="/projectsPage"
             className="px-6 py-3 rounded-full bg-gradient-to-r from-indigo-500 to-cyan-500 
@@ -119,7 +120,17 @@ export default function About() {
           >
             View My Projects
           </Link>
-        </div>
+          </div>
+          <div className="mt-10">
+            <Link
+              href="/#"
+              className="px-6 py-3 rounded-full bg-gradient-to-r from-indigo-500 to-cyan-500 
+              hover:opacity-90 text-white font-medium transition"
+            >
+              View My CV
+            </Link>
+          </div>
+          </div>
       </motion.div>
     </section>
   );
