@@ -20,7 +20,7 @@ export default function Hero() {
           initial={{ opacity: 0, y: -40 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1 }}
-          className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-extrabold 
+          className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-6xl font-extrabold 
           bg-gradient-to-r from-indigo-400 via-cyan-400 to-teal-300 text-transparent bg-clip-text
           pt-20 md:pt-12"
         >

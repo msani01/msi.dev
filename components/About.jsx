@@ -8,7 +8,8 @@ export default function About() {
   return (
     <section
       id="about"
-      className="relative flex flex-col md:flex-row items-center justify-between px-6 sm:px-12 lg:px-20 py-20 text-white"
+      className="relative flex flex-col md:flex-row items-center justify-between px-6 sm:px-12
+       lg:px-20 py-20 text-white"
     >
       {/* image */}
       <motion.div
@@ -18,7 +19,7 @@ export default function About() {
         className="w-full md:w-1/2 flex justify-center md:justify-start mb-10 md:mb-0"
       >
         <div
-          className="relative w-64 h-64 sm:w-80 sm:h-80 lg:w-[22rem] lg:h-[30rem] xl:w-[40rem] xl:h-[25rem] 
+          className="relative w-64 h-64 sm:w-[19rem] sm:h-[35rem] lg:w-[22rem] lg:h-[30rem] xl:w-[22rem] xl:h-[30rem] 
           rounded-3xl overflow-hidden shadow-2xl shadow-cyan-500/30 border-4 border-cyan-500/30"
         >
           <Image
@@ -38,7 +39,8 @@ export default function About() {
         transition={{ duration: 0.8 }}
         className="w-full md:w-1/2 text-center md:text-left"
       >
-        <h2 className="text-4xl sm:text-5xl font-extrabold bg-gradient-to-r from-indigo-400 via-cyan-400 to-teal-300 bg-clip-text text-transparent">
+        <h2 className="text-4xl sm:text-5xl font-extrabold bg-gradient-to-r from-indigo-400
+         via-cyan-400 to-teal-300 bg-clip-text text-transparent">
           About Me
         </h2>
         <p className="mt-6 text-gray-800 text-lg leading-relaxed max-w-xl mx-auto md:mx-0">
