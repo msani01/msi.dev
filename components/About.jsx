@@ -8,7 +8,7 @@ export default function About() {
   return (
     <section
       id="about"
-      className="relative flex flex-col md:flex-row items-center justify-between px-6 sm:px-12
+      className="relative flex flex-col gap-11 md:flex-row items-center justify-between px-6 sm:px-12
        lg:px-20 py-20 text-white"
     >
       {/* image */}

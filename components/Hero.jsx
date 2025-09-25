@@ -36,20 +36,9 @@ export default function Hero() {
           max-w-[95%] sm:max-w-xl md:max-w-2xl leading-relaxed"
         >
           I'm a{" "}
-          <span className="text-cyan-400 font-semibold">Computer Engineering student</span> at{" "}
-          <span className="text-indigo-400 font-semibold">Ahmadu Bello University, Zaria</span>, 
-          currently an{" "}
-          <span className="text-cyan-400 font-semibold">Intern</span> at{" "}
-          <span className="text-indigo-400 font-semibold">Early Code Institute</span>.
-          I’m sharpening my skills in{" "}
-          <span className="text-indigo-400 font-semibold">Web Development</span> using{" "}
+          <span className="text-indigo-400 font-semibold">Web Developer</span> in{" "}
           <span className="text-teal-300">React</span> &{" "}
-          <span className="text-cyan-400">Next.js</span>, while also developing{" "}
-          <span className="text-indigo-400">Android</span> &{" "}
-          <span className="text-teal-300">iOS</span> apps to craft{" "}
-          <span className="text-cyan-400">modern</span>,{" "}
-          <span className="text-indigo-400">high-performance</span>, and{" "}
-          <span className="text-teal-300">user-friendly</span> digital experiences.
+          <span className="text-cyan-400">Next.js</span>.
         </motion.p>
 
         {/* buttons */}
