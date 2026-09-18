@@ -35,10 +35,10 @@ export default function Navbar() {
           : "bg-[#f4efe7]/90"
       }`}
     >
-      <div className="max-w-7xl mx-auto flex items-center justify-between px-4 py-4">
+      <div className="mx-auto flex min-w-0 max-w-7xl items-center justify-between gap-4 px-4 py-3 sm:px-6 sm:py-4">
         {/* name */}
         <Link href="/" className="flex items-center space-x-2">
-          <span className="text-2xl font-bold text-[#1c2421]">
+          <span className="truncate text-xl font-bold text-[#1c2421] sm:text-2xl">
             MSI.dev
           </span>
         </Link>

@@ -64,7 +64,6 @@ export default function ProjectsPage() {
             transition={{ duration: 0.6, delay: index * 0.2 }}
             whileHover={{
               y: -10,
-              scale: 1.03,
               boxShadow: "0 12px 25px rgba(34, 211, 238, 0.3)",
             }}
             className="bg-white rounded-2xl shadow-[0_12px_35px_rgba(48,39,29,0.08)] overflow-hidden border border-[#ded4c8]

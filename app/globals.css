@@ -81,6 +81,21 @@
 body {
   background: #f4efe7;
   color: #1c2421;
+  overflow-x: hidden;
+}
+
+button,
+a,
+input,
+textarea,
+select {
+  max-width: 100%;
+}
+
+@media (max-width: 640px) {
+  h1 {
+    overflow-wrap: anywhere;
+  }
 }
 
 .dark {

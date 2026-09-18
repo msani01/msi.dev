@@ -23,7 +23,7 @@ export default function ResumePage() {
   const { profile, skills } = usePortfolioContent();
   const cvUrl = profile.cvUrl ? profile.cvUrl.replace("/upload/", "/upload/fl_attachment/") : "";
   return (
-    <main className="min-h-screen bg-[#f4efe7] px-6 py-22 text-[#1c2421] sm:px-12 lg:px-20">
+    <main className="min-h-screen bg-[#f4efe7] px-4 py-24 text-[#1c2421] sm:px-8 sm:py-28 lg:px-20">
       <div className="mx-auto max-w-5xl">
         <div className="mb-12 flex flex-wrap items-center justify-between gap-4">
           <Link href="/" className="inline-flex items-center gap-2 text-[#68716b] transition hover:text-[#c45b3c]">
