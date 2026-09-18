@@ -2,13 +2,15 @@
 
 import { motion } from "framer-motion";
 import Link from "next/link";
+import { usePortfolioContent } from "@/lib/use-portfolio-content";
 
 export default function Hero() {
+  const { profile } = usePortfolioContent();
   return (
     <section
       id="hero"
-      className="relative flex flex-col items-center justify-center min-h-screen text-center px-4
-       sm:px-6 md:px-8 bg-[url('/display.jpg')] bg-cover bg-center bg-no-repeat"
+      className="relative flex flex-col items-center justify-center min-h-screen text-center px-4 sm:px-6 md:px-8 bg-cover bg-center bg-no-repeat"
+      style={{ backgroundImage: `url(${profile.heroImage})` }}
     >
       {/* overlay visibile*/}
       <div className="absolute inset-0 bg-black/60"></div>
@@ -21,10 +23,9 @@ export default function Hero() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1 }}
           className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-6xl font-extrabold 
-          bg-gradient-to-r from-indigo-400 via-cyan-400 to-teal-300 text-transparent bg-clip-text
-          pt-20 md:pt-12"
+          text-[#f4efe7] pt-20 md:pt-12"
         >
-          Hi, I'm <span className="text-white">Ibrahim Muhammad Sani</span> 👋
+          {profile.heroGreeting} <span className="text-[#e6b35a]">& welcome.</span>
         </motion.h1>
 
         {/* subtitle */}
@@ -32,13 +33,10 @@ export default function Hero() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.5, duration: 1 }}
-          className="mt-4 text-base sm:text-lg md:text-xl lg:text-2xl text-gray-300 
+          className="mt-4 text-base sm:text-lg md:text-xl lg:text-2xl text-[#e5ddd3] 
           max-w-[95%] sm:max-w-xl md:max-w-2xl leading-relaxed"
         >
-          I'm a{" "}
-          <span className="text-indigo-400 font-semibold">Web Developer</span> in{" "}
-          <span className="text-teal-300">React</span> &{" "}
-          <span className="text-cyan-400">Next.js</span>.
+          {profile.heroIntro}
         </motion.p>
 
         {/* buttons */}
@@ -50,15 +48,14 @@ export default function Hero() {
         >
           <Link
             href="/projectsPage"
-            className="px-6 py-3 sm:px-8 sm:py-4 rounded-full bg-gradient-to-r from-indigo-500 to-cyan-500 
-            hover:opacity-90 text-white text-base sm:text-lg font-medium transition"
+            className="px-6 py-3 sm:px-8 sm:py-4 rounded-full bg-[#c45b3c] hover:bg-[#a94730] text-white text-base sm:text-lg font-medium transition"
           >
             View My Projects
           </Link>
           <Link
             href="/contacts"
-            className="px-6 py-3 sm:px-8 sm:py-4 rounded-full border border-cyan-400 text-cyan-400
-             hover:bg-cyan-400 hover:text-black text-base sm:text-lg font-medium transition max-sm:mb-5"
+            className="px-6 py-3 sm:px-8 sm:py-4 rounded-full border border-[#e6b35a] text-[#f6cf80]
+             hover:bg-[#e6b35a] hover:text-[#1c2421] text-base sm:text-lg font-medium transition max-sm:mb-5"
           >
             Contact Me
           </Link>

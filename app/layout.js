@@ -15,7 +15,7 @@ const geistMono = Geist_Mono({
 
 export const metadata = {
   title: "MSI.dev",
-  description: "Learn More About Me",
+  description: "Ibrahim Muhammad Sani - web and mobile developer",
 };
 
 export default function RootLayout({ children }) {

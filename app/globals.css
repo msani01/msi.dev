@@ -78,6 +78,11 @@
   --sidebar-ring: oklch(0.707 0.022 261.325);
 }
 
+body {
+  background: #f4efe7;
+  color: #1c2421;
+}
+
 .dark {
   --background: oklch(0.13 0.028 261.692);
   --foreground: oklch(0.985 0.002 247.839);

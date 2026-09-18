@@ -9,6 +9,7 @@ import Image from "next/image";
 const navLinks = [
   { name: "Home", href: "/" },
   { name: "Projects", href: "/projectsPage" },
+  { name: "Resume", href: "/resume" },
   { name: "Blog", href: "/blog" },
   { name: "Contact", href: "/contacts" },
 ];
@@ -28,17 +29,16 @@ export default function Navbar() {
       initial={{ y: -100 }}
       animate={{ y: 0 }}
       transition={{ duration: 0.6, ease: "easeOut" }}
-      className={`fixed top-0 left-0 w-full z-50 transition-colors ${
-        scrolled
-          ? "backdrop-blur-xl bg-white/60 shadow-lg"
-          : "bg-white/50"
+      className={`fixed top-0 left-0 w-full z-50 border-b border-[#cfc4b7] transition-colors ${
+          scrolled
+          ? "backdrop-blur-xl bg-[#f4efe7]/50 shadow-sm"
+          : "bg-[#f4efe7]/90"
       }`}
     >
       <div className="max-w-7xl mx-auto flex items-center justify-between px-4 py-4">
         {/* name */}
         <Link href="/" className="flex items-center space-x-2">
-          <span className="text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-indigo-800
-           to-cyan-800">
+          <span className="text-2xl font-bold text-[#1c2421]">
             MSI.dev
           </span>
         </Link>
@@ -49,7 +49,7 @@ export default function Navbar() {
             <Link
               key={link.name}
               href={link.href}
-              className="text-gray-900 hover:text-indigo-800 transition-colors duration-300"
+              className="text-[#222724] hover:text-[#c45b3c] transition-colors duration-300"
             >
               {link.name}
             </Link>
@@ -72,14 +72,14 @@ export default function Navbar() {
           initial={{ opacity: 0, y: -20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.3 }}
-          className="md:hidden bg-black/40 backdrop-blur-lg shadow-lg px-6 pb-4"
+          className="md:hidden border-t border-[#cfc4b7] bg-[#f4efe7] shadow-lg px-6 pb-4"
         >
           {navLinks.map((link) => (
             <Link
               key={link.name}
               href={link.href}
               onClick={() => setIsOpen(false)}
-              className="block py-3 text-gray-100 hover:text-gray-300 transition-colors duration-300"
+              className="block py-3 text-[#68716b] hover:text-[#c45b3c] transition-colors duration-300"
             >
               {link.name}
             </Link>
