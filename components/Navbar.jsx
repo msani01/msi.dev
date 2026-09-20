@@ -39,7 +39,7 @@ export default function Navbar() {
         {/* name */}
         <Link href="/" className="flex items-center space-x-2">
           <span className="truncate text-xl font-bold text-[#1c2421] sm:text-2xl">
-            MSI.dev
+            MS.Ibrahim
           </span>
         </Link>
 

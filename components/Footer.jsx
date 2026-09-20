@@ -10,7 +10,7 @@ export default function Footer() {
         
         {/* Logo */}
         <Link href="/" className="text-xl font-bold text-[#e6b35a]">
-          MSI.dev
+          MS.Ibrahim
         </Link>
         
         {/* Social Icons */}

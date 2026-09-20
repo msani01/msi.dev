@@ -16,6 +16,11 @@ const geistMono = Geist_Mono({
 export const metadata = {
   title: "MSI.dev",
   description: "Ibrahim Muhammad Sani - web and mobile developer",
+  icons: {
+    icon: "/msi.png",
+    shortcut: "/msi.png",
+    apple: "/msi.png",
+  },
 };
 
 export default function RootLayout({ children }) {
